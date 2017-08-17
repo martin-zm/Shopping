@@ -1,0 +1,20 @@
+body{
+	background-color: #33592e;
+}
+hr{
+	border-color: white;
+}
+div{
+	float: left;
+	margin: 10px;
+}
+div dd{
+	margin: 0px;
+	font-size: 10px;
+}
+div dd.dd_name{
+	color: white;
+}
+div dd.dd_city{
+	color: #000;
+}

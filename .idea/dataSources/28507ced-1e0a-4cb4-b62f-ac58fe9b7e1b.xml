@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="shopping@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="shopping">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="hibernate"/>
+    <schema id="4" parent="1" name="imooc"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="register"/>
+    <schema id="9" parent="1" name="sakila"/>
+    <schema id="10" parent="1" name="sys"/>
+    <schema id="11" parent="1" name="t2"/>
+    <schema id="12" parent="1" name="test"/>
+    <schema id="13" parent="1" name="world"/>
+    <table id="14" parent="2" name="items"/>
+    <table id="15" parent="2" name="users"/>
+    <column id="16" parent="14" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="17" parent="14" name="NAME">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="18" parent="14" name="CITY">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="19" parent="14" name="PRICE">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="20" parent="14" name="NUMBER">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="21" parent="14" name="PICTURE">
+      <Position>6</Position>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <key id="22" parent="14" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="23" parent="15" name="UID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="24" parent="15" name="USERNAME">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="25" parent="15" name="PASSWORD">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="26" parent="15" name="PRIMARY">
+      <ColNames>UID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

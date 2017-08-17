@@ -1,0 +1,32 @@
+body{
+    background-color: #33592e;
+}
+hr{
+    border-color: #FF7F00;
+}
+div{
+    float: left;
+    margin: 5px 30px;
+}
+div dd{
+    margin: 0px;
+    font-size: 10px;
+}
+div dd.dd_name{
+    color: blue
+}
+div dd.dd_city{
+    color: #000;
+}
+#cart{
+    margin: 0px auto;
+    /*text-align: right;*/
+}
+span{
+    padding: 0 2px;
+    border: 1px solid #C0C0C0;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
